@@ -15,12 +15,12 @@ You can accomplish a lot on geektool using built-in Bash functions for date, tim
 
 ## What about those arcs?
 
-In order to programmatically create those big transparent arcs on my desktop, I used the ARCfont. The a in ARCfont will display as a 0% arc, the b as 2%, the c as 4%, and on up to capital A - Y to make 100%.
+Those big transparent arcs on my desktop are the current disc space being used (the outer arc) and my user (pink) and system (blue) CPU. In order to programmatically create these (and update them every 2 seconds), I used the ARCfont. The a in ARCfont will display as a 0% arc, the b as 2%, the c as 4%, and on up to capital A - Y to make 100%.
 
 To download the ARCfont, visit [this page](
 http://www.macosxtips.co.uk/geeklets/system/system-info-circular-graphics/).
 
-In order to convert the numbers for disc space and CPU into letters, I used python. (See `user_cpu.py`, `sys_cpu.py`, and `disc_space.py`).
+In order to convert the numbers for disc space and CPU into letters, I used python. (See first `system_helpers.py`, and then `user_cpu.py`, `sys_cpu.py`, and `disc_space.py`).
 
 ## Setup
 
@@ -35,7 +35,7 @@ In order to convert the numbers for disc space and CPU into letters, I used pyth
    Type the proper command for the script you'd like to display.
 
    For example, if you'd like to display the trending github repos, type the 
-   following in then command input area.
+   following:
    ```
    cd path/to/the/script && python top_repos.py
    ```
