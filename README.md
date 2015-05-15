@@ -7,7 +7,7 @@ With the help of geektool my desktop looks like this:
 
 ![my desktop](desktop.png)
 
-You can download geektool here.
+You can download geektool [here](http://projects.tynsoe.org/en/geektool/).
 
 ## These scripts
 
@@ -16,6 +16,10 @@ You can accomplish a lot on geektool using built-in Bash functions for date, tim
 ## What about those arcs?
 
 In order to programmatically create those big transparent arcs on my desktop, I used the ARCfont. The a in ARCfont will display as a 0% arc, the b as 2%, the c as 4%, and on up to capital A - Y to make 100%.
+
+To download the ARCfont, visit [this page](
+http://www.macosxtips.co.uk/geeklets/system/system-info-circular-graphics/
+More info on arc font and the download).
 
 In order to convert the numbers for disc space and CPU into letters, I used python. (See `user_cpu.py`, `sys_cpu.py`, and `disc_space.py`).
 
